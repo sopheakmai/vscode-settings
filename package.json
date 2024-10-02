@@ -1,0 +1,18 @@
+{
+  "name": "vscode-settings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.7.1",
+    "eslint": "^9.10.0",
+    "eslint-plugin-format": "^0.1.2",
+    "@unocss/eslint-plugin": "^0.62.4"
+  }
+}
