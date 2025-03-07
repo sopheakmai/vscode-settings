@@ -1,0 +1,1 @@
+cat path/to/extensions.json | grep -o '"[^"]*"' | grep -v recommendations | tr -d '"' | xargs -L 1 code --install-extension
