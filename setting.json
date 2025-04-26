@@ -3,7 +3,6 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.fontFamily": "Input Mono, monospace",
   "editor.guides.bracketPairs": "active",
-  "editor.lineNumbers": "interval",
   "editor.renderWhitespace": "boundary",
   "window.autoDetectColorScheme": true,
   "workbench.colorTheme": "One Dark Pro Darker",
@@ -11,7 +10,7 @@
   "workbench.fontAliasing": "antialiased",
   "workbench.iconTheme": "vscode-icons",
   "workbench.list.smoothScrolling": true,
-  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
+  "workbench.preferredDarkColorTheme": "Vitesse Dark Soft",
   "workbench.preferredLightColorTheme": "Vitesse Light",
   "workbench.productIconTheme": "icons-carbon",
   "workbench.sideBar.location": "right",
@@ -34,6 +33,7 @@
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.stickyScroll.enabled": true,
   "editor.hover.sticky": true,
+  "editor.linkedEditing": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "files.eol": "\n",
@@ -107,8 +107,6 @@
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
   "css.lint.hexColorLength": "ignore",
-  "githubIssues.workingIssueFormatScm": "#${issueNumberLabel}",
-  "githubPullRequests.fileListLayout": "tree",
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
@@ -160,5 +158,64 @@
   "i18n-ally.ignoredLocales": [],
   "iconify.annotations": true,
   "iconify.inplace": true,
-  "svg.preview.mode": "svg"
+  "svg.preview.mode": "svg",
+
+  // CJ or coding garden configs
+  "codesnap.backgroundColor": "#000000",
+  "codesnap.containerPadding": "0px",
+  "codesnap.showWindowControls": false,
+  "codesnap.transparentBackground": true,
+  "cSpell.enabled": true,
+  "editor.detectIndentation": true,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": true,
+  "editor.snippetSuggestions": "top",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "keyword.operator",
+          "punctuation.separator"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "comment",
+          "comment.block"
+        ],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#F5F"
+        }
+      },
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      }
+    ]
+  },
+  "emmet.showAbbreviationSuggestions": false,
+  "explorer.openEditors.visible": 1,
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "onWindowChange",
+  "git.openRepositoryInParentFolders": "never",
+  "markdown.preview.fontSize": 36,
+  "screencastMode.keyboardOptions": {
+    "showCommandGroups": false,
+    "showCommands": false,
+    "showKeybindings": true,
+    "showKeys": false,
+    "showSingleEditorCursorMoves": true
+  },
+  "search.useIgnoreFiles": false,
+  "terminal.integrated.fontSize": 14,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.editor.labelFormat": "medium",
+  "workbench.statusBar.visible": false,
 }
