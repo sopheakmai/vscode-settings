@@ -17,9 +17,9 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 12,
-  "editor.lineHeight": 1.6,
-  "editor.fontSize": 14,
-  "window.zoomLevel": 2,
+  "editor.lineHeight": 2,
+  "editor.fontSize": 13,
+  "window.zoomLevel": 0.5,
 
   // ========== Editor ========== 
   "debug.onTaskErrors": "debugAnyway",
@@ -217,5 +217,10 @@
   "terminal.integrated.fontSize": 14,
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.editor.labelFormat": "medium",
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
+  "cSpell.userWords": [
+    "primeui",
+    "unplugin"
+  ],
+  "github.copilot.nextEditSuggestions.enabled": true,
 }
